@@ -1,0 +1,561 @@
+body
+{
+    background-color: #302C42;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    margin: 1vw auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    font-size: 1vw;
+}
+.text-center{
+    text-align: center;
+}
+/*-- header --*/
+.burger-button{
+    display: none
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.navbutton{
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    font-weight: bold;
+}
+
+.header-buttons{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*--- INFO --- */
+
+
+.info{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.tagparagraph{
+    margin: 0;
+    padding: 0;
+}
+.infotext{
+    font-weight: bold;
+    color: #fff;
+    font-size: 2vw;
+    width: 40%;
+}
+.tagtext{
+    color: #8176AF; 
+}
+.infodescription{
+    color: #fff;
+    font-size: 1vw;
+}
+.info-button{
+    display: flex;
+    align-items: center;
+}
+.hydra-button{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2vh;
+    padding: 2vh;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 2vw;
+}
+.hydra-button:hover{
+    border: 1px solid #fff;
+    background: none;
+    color: #fff
+}
+.info-image{
+    width: 30vw;
+    display: flex;
+    align-self: center;
+    align-content: center;
+}
+
+
+/*---Contacts Section---*/
+.contacts{
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    border-radius: 10vw;
+    width: 100%;
+    padding: 3vw;
+    color: #fff;
+    display: flex;
+    margin-top: 5vh;
+    align-content: center;
+    justify-content: space-between;
+    align-self: center;
+}
+.contact-block{
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-self: center;
+}
+.contact-heading{
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.contact-value{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+}
+.contact-img{
+    margin-right: 2vh;
+}
+.contact-border{
+    width: 0.1%;
+    height: 90%;
+}
+/*---INTRODUCTION TO HYDRAVR---*/
+.introduction{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.introduction-title{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 2vw;
+}
+.intro-title-1{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+.intro-title-2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 75%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.intr-arr{
+    width: 25%;
+}
+.introduction-text{
+    color: #fff;
+    width: 50%;
+}
+
+/*--- About section ---*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.about-image{
+    width: 50%;
+}
+.about-text{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.aboutheading{
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+.about-prodname{
+    color: #fff;
+    font-weight: light;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.about-paragraph{
+    color:#fff;
+}
+
+.about-btn{
+    width: 30%;
+}
+
+/*--- Why build with hydra ---*/
+.why-hydra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.why-description{
+    display: flex;
+    justify-content: space-between;
+}
+.why-text{
+    width: 40%;
+}
+
+/*--- Card ---*/
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);    ;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 5vw;
+}
+.card-border{
+    width: 80%;
+    height: 0.1vh;
+    margin: 2vh;
+}
+.card-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.card-description{
+    color: #fff;
+    text-align: center;
+}
+.card-image{
+    border: 2vh solid rgba(14, 14, 14, 0.32);
+    border-radius: 20vw;
+}
+
+/*--- Technologies and hardware section ---*/
+.technologies{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.hardwares{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background: linear-gradient(0deg, rgba(48, 44, 66, 0.79) 0%, rgba(48, 44, 66, 0.79) 100%), url("/src/img/cute_girl.svg"), lightgray 50% / cover no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40vh; 
+    border-radius: 20vw;
+    z-index: 0;
+}
+.arrow-btn{
+    margin-top: -2vh;
+    width: 200%;
+    background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 20vw;
+    z-index: 5;
+}
+.stacks{
+    display: flex;
+    justify-content: space-between;
+}
+.stack-img{
+
+    width: 20%;
+
+}
+ /*--- How we build HydraVR ---*/
+
+.build-stage{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.stage-slider{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.stage-no{
+    padding: 3vw;
+    color: #343045;
+    font-weight: bold;
+    font-size: 3vw;
+    background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border-radius: 20vw;
+}
+.stage-name{
+    font-weight: bold;
+    width: 95%;
+    color: #fff;
+    font-size: 2vw;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+}
+.stage-arrow{
+    width: 2vw;
+}
+.stage-name::before{
+    content: '';
+    background-image: url("/src/img/stage-name__before.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 4vw;
+    height: 2vw;
+}
+
+/*--- Feedback form ---*/
+.join-hydra{
+    padding: 2vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    height: 120vh;
+}
+
+.form-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: 2vw;
+}
+.join-descr{
+    color: #fff;
+    font-weight: 300;
+    font-size: 2vw;
+}
+.form-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.fname{
+    grid-area: fname;
+}
+
+.lname{
+    grid-area: lname;
+}
+
+.femail{
+    grid-area: femail;
+}
+
+.fnumber{
+    grid-area: fnumber;
+}
+
+.fsubject{
+    grid-area: fsubject;
+}
+
+.fsmth{
+    grid-area: fsmth;
+    height: 30vh;
+}
+.join-form{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-areas:"fname lname"
+                        "femail fnumber"
+                        "fsubject fsubject"
+                        "fsmth fsmth"
+                        "fsmth fsmth";
+}
+.join-input{
+
+    padding: 2vw;
+    border: 1px solid #fff;
+    border-radius: 10vw;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    margin: 1vw;
+    color: #fff;
+}
+
+/*--- Footer ---*/
+.footer{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: baseline;
+}
+.footer-logo{
+    width: 20%;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    justify-content: space-around;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.social-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.privacy-policy{
+    margin-top: 10vh;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.author{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*--- Адаптив Сайта ---*/
+
+/*--- 4К Разрешение ---*/
+
+@media (max-width: 3840px){
+    .logo{
+        width: 15vw;
+    }
+    .navbutton{
+        font-size: 1vw;
+    }
+    .about-image{
+        width: 40%;
+    }
+    .card{
+        width: 18%;
+    }
+    .hardwares{
+        background-size: cover;
+    }
+    .arrow-btn{
+        width: 2.5%;
+    }
+    .join-input{
+        font-size: 1vw;
+    }
+    .footer-line{
+        height: 15vw;
+    }
+    .footer-vertical-line{
+        width: 70vw;
+        height: 3vh;
+    }
+    .social-button{
+        width: 4vw;
+    }
+}
+@media (max-width: 1850px)
+{
+    .contact-value{
+        font-size: 1vw;
+    }
+    .about-image{
+        width: 45%;
+    }
+    .about-text{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 1101px){
+    .header-buttons, .navigation{
+        display: none;
+    }
+    .burger-button{
+        display: flex;
+    }
+    .infodescription{
+        display: none;
+    }
+    .info{
+        flex-direction: column-reverse;
+        align-content: center;
+        width: 100%;
+    }
+    .infotext{
+        width: 60vw;
+        align-self: center;
+    }
+    .info-button{
+        width: 40vw;
+        align-items: center;
+    }
+    .tagparagrapgh{
+        font-size: 5vw;
+        width: 70vw;
+        align-self: center;
+    }
+    .tagtext{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .arrow-inf-btn{
+        display: none;
+    }
+    .info-image{
+        width: 100%;
+    }
+}
